@@ -1,0 +1,70 @@
+ul.retail-multicheck-sortable-list .retail-multicheck-sortable-handle{
+	float: right;
+	cursor: move;
+}
+ul.retail-multicheck-sortable-list li{
+	padding: 7px;
+	border: 1px solid #e5e5e5;
+	background: #fafafa;
+}
+.retail-hideme{
+	display: none !important;
+}
+
+.customize-control select{
+	width: 98%;
+}
+
+#customize-theme-controls .accordion-section-content{
+	background: #FFF;
+}
+
+.retail-accordion-section-title{
+	color: #fff;
+	font-size: 110%;
+	padding: 10px 10px 11px 14px;
+	line-height: 21px;
+	background: #0073aa;
+	margin: 0 -12px 0;
+}
+.retail-accordion-section-paragraph{
+	color: #fff;
+	padding: 0px 10px 11px 14px;
+	line-height: 16px;
+	background: #0073aa;
+	margin: 0 -12px 0;
+}
+
+[id*="customize-control-fs_"].customize-control,
+[id*="customize-control-ft_"].customize-control{
+	width: 46%;
+	margin-right: 3%;
+}
+
+[id*="customize-control-fw_"].customize-control,
+[id*="customize-control-fl_"].customize-control{
+	width: 46%;
+	margin-left: 3%;
+	clear: none;
+}
+
+/*Theme Info*/
+.retail-info{
+	margin-top: 10px;
+}
+
+.retail-info a{
+	background: #0073aa;
+	padding: 5px 10px;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	line-height: 1.2;
+	box-shadow: none;
+	opacity: 1;
+}
+
+.retail-info a:hover{
+	opacity: 0.8;
+}

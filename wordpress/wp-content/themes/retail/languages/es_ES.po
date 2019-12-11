@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Retail 1.2\n"
+"POT-Creation-Date: 2019-02-01 14:09+0000\n"
+"PO-Revision-Date: 2019-02-01 14:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: uXL Themes\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: functions/translations.php\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Oops!, Parece que esta página son existe."
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr "¿Probar con una búsqueda?"
+
+#: 404.php:19
+#, fuzzy
+msgid "Browse our pages."
+msgstr "Navegue por nuestras páginas."
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una Respuesta a &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Responder a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Responder a &ldquo;%2$s&rdquo;"
+
+#: comments.php:62
+msgid "Previous"
+msgstr "Anterior"
+
+#: comments.php:63
+msgid "Next"
+msgstr "Siguiente"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: content-front-page.php:18 content-page.php:21 content-search.php:53
+#: content-single.php:34 content.php:53
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Name of current post
+#: content-front-page.php:29 content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Listo para publicar tu primer artículo?<a href=\"%1$s\">Empezar aquí</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, tu búsqueda no produjo ningún resultado. Inténtalo de nuevo con "
+"otras palabras."
+
+#: content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no encontramos lo que buscas. Tal vez una búsqueda puede ayudar."
+
+#: content-related.php:19
+msgid "Related"
+msgstr "Relacionado"
+
+#: content-search.php:42 content.php:42
+msgid "No Title"
+msgstr "Sin Título"
+
+#: content-search.php:57 content.php:57
+msgid "Continue Reading"
+msgstr "Continuar leyendo"
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr "Menú Primario"
+
+#: functions.php:36
+msgid "Footer Menu"
+msgstr "Menú de pie de página"
+
+#: functions.php:122
+msgid "Blog Sidebar"
+msgstr "Barra lateral del blog"
+
+#: functions.php:131
+msgid "Page Sidebar"
+msgstr "Barra lateral de la página"
+
+#: functions.php:140
+msgid "Shop Sidebar"
+msgstr "Barra lateral de la tienda"
+
+#: functions.php:142
+#, fuzzy
+msgid "Requires WooCommerce plugin."
+msgstr "Requiere WooCommerce plugin."
+
+#: functions.php:150
+msgid "Shop Filters"
+msgstr "Filtros de Tienda"
+
+#: functions.php:152
+#, fuzzy
+msgid ""
+"Horizontal widget area for product archives. Requires WooCommerce plugin."
+msgstr ""
+"Área horizontal de widgets para archivos de productos. Requiere WooCommerce "
+"plugin."
+
+#: functions.php:160
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#: functions.php:162
+#, fuzzy
+msgid "Add your own content above the header."
+msgstr "Añade tu propio contenido encima del encabezado."
+
+#: functions.php:170
+#, fuzzy
+msgid "Offers Bar"
+msgstr "Barra de Ofertas"
+
+#: functions.php:172
+#, fuzzy
+msgid "Add your own content below the site masthead."
+msgstr "Añade tu propio contenido debajo de la cabecera del sitio."
+
+#: functions.php:180
+#, fuzzy
+msgid "Homepage Slider/Hero Section"
+msgstr "Página de inicio Sección Slider/Hero"
+
+#: functions.php:182
+#, fuzzy
+msgid "The large image/hero/slider area below the masthead on the homepage."
+msgstr ""
+"El área grande de imagen/héroe/deslizador debajo de la cabecera de la página "
+"principal."
+
+#: functions.php:190
+msgid "Top Footer"
+msgstr "Pie de página Superior"
+
+#: functions.php:191
+#, fuzzy
+msgid "Full width area above the footer columns."
+msgstr "Área de ancho completo por encima de las columnas del pie de página."
+
+#: functions.php:201
+msgid "Footer Column 1"
+msgstr "Columna de pie de página 1"
+
+#: functions.php:211
+msgid "Footer Column 2"
+msgstr "Columna de pie de página 2"
+
+#: functions.php:221
+msgid "Footer Column 3"
+msgstr "Columna de pie de página 3"
+
+#: functions.php:247 functions.php:316
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "en"
+
+#: functions.php:278 functions.php:345
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "sin subconjunto"
+
+#: functions/customizer.php:29
+#, fuzzy
+msgid "Disable Site Title first letter styling"
+msgstr "Desactivar el estilo de la primera letra del título del sitio"
+
+#: functions/customizer.php:47
+#, fuzzy
+msgid "Highlight/Link Color"
+msgstr "Resaltado/Color del enlace"
+
+#: functions/customizer.php:57
+msgid "Layout Options"
+msgstr "Opciones de diseño"
+
+#: functions/customizer.php:75
+msgid "Enable Boxed Layout"
+msgstr "Habilitar Diseño en Caja"
+
+#: functions/customizer.php:93
+msgid "Container Width"
+msgstr "Ancho del Contenedor"
+
+#: functions/customizer.php:117
+msgid "Header Search Style"
+msgstr "Estilo del Buscador de cabecera"
+
+#: functions/customizer.php:140
+#, fuzzy
+msgid "Disable Search Form in Header"
+msgstr "Desactivar el formulario de búsqueda en el encabezado"
+
+#: functions/customizer.php:158
+msgid "Menu Position"
+msgstr "Posición del Menú"
+
+#: functions/customizer.php:182
+#, fuzzy
+msgid "Blog - Grid Layout"
+msgstr "Blog - Diseño de la cuadrícula"
+
+#: functions/customizer.php:213
+#, fuzzy
+msgid "Sidebar Position"
+msgstr "Posición de Barra Lateral del Blog"
+
+#: functions/customizer.php:217
+#, fuzzy
+msgid "Left"
+msgstr "Área superior izquierda"
+
+#: functions/customizer.php:218
+#, fuzzy
+msgid "Right"
+msgstr "Área superior derecha"
+
+#: functions/customizer.php:235
+#, fuzzy
+msgid "Enable Sticky Footer"
+msgstr "Activar Pie de página pegajoso"
+
+#: functions/customizer.php:245 functions/customizer.php:291
+#, fuzzy
+msgid "Homepage Sections"
+msgstr "Secciones de la página de inicio"
+
+#: functions/customizer.php:246
+#, fuzzy
+msgid ""
+"You should first select a Static Homepage if you have not already done so. "
+"See: \"Homepage Settings\""
+msgstr ""
+"Primero debe seleccionar una página de inicio estática si aún no lo ha "
+"hecho. Ver: \"Configuración de la página de inicio\""
+
+#: functions/customizer.php:263
+#, fuzzy
+msgid "Activate Sortable Sections"
+msgstr "Activar secciones clasificables"
+
+#: functions/customizer.php:264
+#, fuzzy
+msgid "Requires WooCommerce Plugin."
+msgstr "Requiere WooCommerce Plugin."
+
+#: functions/customizer.php:292
+#, fuzzy
+msgid ""
+"Check the box to display. Sortable: drag and drop into your preferred order."
+msgstr ""
+"Marque la casilla para mostrar. Ordenable: arrastrar y soltar en el orden "
+"que prefieras."
+
+#: functions/customizer.php:303
+#, fuzzy
+msgid "Typography & Fonts"
+msgstr "Tipografía y fuentes"
+
+#: functions/customizer.php:315 functions/customizer.php:374
+msgid "Site Title"
+msgstr "Título del sitio"
+
+#: functions/customizer.php:328
+msgid "Navigation"
+msgstr "Navegación"
+
+#: functions/customizer.php:341
+msgid "Content"
+msgstr "Contenido"
+
+#: functions/customizer.php:354
+msgid "Headings"
+msgstr "Encabezados"
+
+#: functions/customizer.php:392
+msgid "Size"
+msgstr "Tamaño"
+
+#: functions/customizer.php:413
+msgid "Weight"
+msgstr "Peso"
+
+#: functions/customizer.php:431
+msgid "Transform"
+msgstr "Transformar"
+
+#: functions/customizer.php:434
+msgid "none"
+msgstr "ninguno"
+
+#: functions/customizer.php:434
+msgid "capitalize"
+msgstr "primera en mayúsculas"
+
+#: functions/customizer.php:434
+msgid "lowercase"
+msgstr "minúsculas"
+
+#: functions/customizer.php:434
+msgid "uppercase"
+msgstr "mayúscula"
+
+#: functions/customizer.php:451
+msgid "Letter Spacing"
+msgstr "Espacio entre letras"
+
+#: functions/customizer.php:463 functions/customizer.php:474
+#: functions/customizer.php:610
+msgid "Go Pro"
+msgstr "Hazte Pro"
+
+#: functions/customizer.php:465 functions/theme-help.php:85
+#, fuzzy
+msgid ""
+"Upgrade to Retail Pro for even more cool features and customization options."
+msgstr ""
+"Actualice a Retail Pro para obtener aún más funciones y opciones de "
+"personalización."
+
+#: functions/customizer.php:593
+#, fuzzy
+msgid "More options available"
+msgstr "Más opciones disponibles"
+
+#: functions/customizer.php:602
+msgid "Documentation"
+msgstr "Documentación"
+
+#: functions/extras.php:505
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: functions/extras.php:505
+#, php-format
+msgid "Powered by %s"
+msgstr "Propulsado por %s"
+
+#: functions/extras.php:507
+#, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr "Tema: %2$s por %1$s"
+
+#: functions/extras.php:530
+msgid "options"
+msgstr "opciones"
+
+#: functions/extras.php:707
+msgid "Page Content"
+msgstr "Contenido de página"
+
+#: functions/extras.php:713
+msgid "Product Categories"
+msgstr "Categorías de Productos"
+
+#: functions/extras.php:719
+msgid "New products"
+msgstr "Nuevos productos"
+
+#: functions/extras.php:725
+msgid "Featured products"
+msgstr "Productos destacados"
+
+#: functions/extras.php:731
+msgid "On-sale products"
+msgstr "Productos en Venta"
+
+#: functions/extras.php:737
+msgid "Top sellers"
+msgstr "Los mas vendidos"
+
+#: functions/extras.php:743
+msgid "Top rated products"
+msgstr "Productos mejor valorados"
+
+#: functions/extras.php:895 functions/extras.php:905
+#, fuzzy
+msgid ""
+"Please note: will not import static homepage allocation, if you have "
+"homepage currently set to display blog posts."
+msgstr ""
+"Nota: no importará la asignación estática de la página de inicio, si su "
+"página de inicio está configurada para mostrar entradas en el blog."
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: functions/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publicado en %1$s"
+
+#. translators: %s: post title
+#: functions/template-tags.php:71
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: functions/template-tags.php:88
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: functions/theme-help.php:19 functions/theme-help.php:32
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Bienvenido a %1$s %2$s"
+
+#: functions/theme-help.php:19
+msgid "Theme Help"
+msgstr "Ayuda del tema"
+
+#: functions/theme-help.php:38
+msgid "Theme Links"
+msgstr "Enláces del Tema"
+
+#: functions/theme-help.php:39
+msgid "Theme Page"
+msgstr "Página del Tema"
+
+#: functions/theme-help.php:40
+msgid "Theme Demo"
+msgstr "Tema de demostración"
+
+#: functions/theme-help.php:41 functions/theme-help.php:56
+msgid "Theme Documentation"
+msgstr "Documentación del tema"
+
+#: functions/theme-help.php:42
+msgid "Theme Support"
+msgstr "Soporte del tema"
+
+#: functions/theme-help.php:49
+#, php-format
+msgid "Getting Started with %s"
+msgstr "Introducción a %s"
+
+#: functions/theme-help.php:59
+#, fuzzy
+msgid ""
+"Do you need help to setup, configure and customize this theme? Check out the "
+"extensive theme documentation on our website."
+msgstr ""
+"¿Necesita ayuda para instalar, configurar y personalizar este tema? Consulte "
+"la amplia documentación temática en nuestro sitio web."
+
+#: functions/theme-help.php:63
+#, php-format
+msgid "View %s Documentation"
+msgstr "Ver la Documentación de %s"
+
+#: functions/theme-help.php:69
+msgid "Theme Options"
+msgstr "Opciones del Tema"
+
+#: functions/theme-help.php:72
+#, fuzzy, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr "%s utiliza el Personalizador para la configuración del tema."
+
+#: functions/theme-help.php:76
+msgid "Customize Theme"
+msgstr "Personalizar el tema"
+
+#: functions/theme-help.php:82
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: functions/theme-help.php:89
+#, fuzzy
+msgid "GO PRO"
+msgstr "GO PRO"
+
+#: functions/theme-help.php:111
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr "%1$s lo suministra %2$s. Si te gusta este tema WP, %3$s :)"
+
+#: functions/theme-help.php:111
+msgid "Retail Review"
+msgstr "Reseña de Retail"
+
+#: functions/theme-help.php:111
+msgid "rate it"
+msgstr "valora este tema"
+
+#. translators: %s: search query.
+#: search.php:35
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda por: %s"
+
+#: sidebar-shop-filters.php:20
+msgid "Product Filters"
+msgstr "Filtro de Productos"
+
+#. Theme Name of the plugin/theme
+msgid "Retail"
+msgstr "Retail"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com/theme/retail/"
+msgstr "https://uxlthemes.com/theme/retail/"
+
+#. Description of the plugin/theme
+msgid ""
+"Retail is a clean and uncluttered WordPress shopping theme. Support for "
+"WooCommerce along with Wishlist and Quick View plugins is included along "
+"with an auto-updating AJAX header cart, sticky add-to-cart panel on single "
+"product pages and a horizontal product filter widget area to help increase "
+"the e-commerce sales of your store. The blog also features 12 different grid "
+"layout options including masonry post layout and support for video posts/"
+"articles. Retail also has full width and boxed layout options."
+msgstr ""
+"Retail al por menor es un tema de compras limpio y despejado de WordPress. "
+"El soporte para WooCommerce junto con los plugins Wishlist y Quick View se "
+"incluye junto con un carrito de cabecera AJAX que se actualiza "
+"automáticamente, un pegajoso panel de añadir al carrito en páginas de "
+"productos individuales y un área de widgets de filtro de productos "
+"horizontal para ayudar a incrementar las ventas de comercio electrónico de "
+"tu tienda. El blog también presenta 12 opciones diferentes de diseño de "
+"cuadrícula, incluyendo diseño de postes de albañilería y soporte para postes/"
+"artículos de video. Retail también tiene opciones de ancho completo y diseño "
+"de caja."
+
+#. Author of the plugin/theme
+msgid "uXL Themes"
+msgstr "uXL Themes"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com"
+msgstr "https://uxlthemes.com"
+
+#~ msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+#~ msgstr "Hola %1$s (¿no eres %1$s? <a href=\"%2$s\">Cerrar Sesión</a>)"
+
+#~ msgid "Login"
+#~ msgstr "Iniciar sesión"
+
+#~ msgid "Register"
+#~ msgstr "Registrarse"
