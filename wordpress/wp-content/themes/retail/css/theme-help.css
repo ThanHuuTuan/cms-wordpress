@@ -1,0 +1,122 @@
+/*
+ * Theme admin help css
+ */
+
+.theme-help-wrap {
+    margin: 25px 40px 0 20px;
+    max-width: 1050px;
+    position: relative;
+}
+.theme-help-wrap img {
+	max-width: 100%;
+}
+
+/* Clearing Floats */
+.theme-help-wrap .clearfix:before, .theme-help-wrap .clearfix:after {  
+	content: " ";
+	display: table;  
+}  
+.theme-help-wrap .clearfix:after {  
+	clear: both;
+}  
+.theme-help-wrap .clearfix {
+    *zoom: 1; /* For IE 6/7 only */  
+}
+
+/* Columns */
+.theme-help-wrap .columns-wrapper {
+	margin-right: -4em;
+}
+.theme-help-wrap .columns-wrapper .column {
+	float: left;
+	padding-right: 4em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.theme-help-wrap .columns-wrapper .column-half {
+	width: 50%;
+}
+.theme-help-wrap .columns-wrapper .column-third {
+	width: 33.3333333333333%;
+}
+.theme-help-wrap .columns-wrapper .column-quarter {
+	width: 25%;
+}
+
+/* Font Styles */
+.theme-help-wrap h3 {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin: 1em 0 0.6em;
+}
+.theme-help-wrap h4 {
+    font-size: 1.4em;
+    margin: 0.2em 0;
+}
+
+/* Theme help Header */
+.theme-help-wrap h1 {
+    color: #23282d;
+    font-size: 3.0em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0.2em 0 0 0;
+}
+.theme-help-wrap .theme-description {
+    color: #444;
+    font-size: 1.4em;
+    margin: 1em 0;
+    min-height: 60px;
+	font-weight: 400;
+    line-height: 1.6em;
+}
+
+/* Important Links */
+.theme-help-wrap .important-links p strong {
+	margin-right: 1em;
+}
+.theme-help-wrap .important-links p a {
+	padding: 0 1em;
+}
+
+/* Getting Started */
+#getting-started {
+	margin: 1em 0;
+}
+#getting-started .section {
+	margin: 0.5em 0 2.5em;
+}
+#getting-started .section .about {
+	color: #444;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+#getting-started img {
+	margin-top: 1em;
+}
+#getting-started .section ul {
+    padding-left: 25px;
+}
+#getting-started .section li {
+    list-style-type: disc;
+}
+/* Theme Author */
+#theme-author {
+	margin: 1em 0;
+}
+#theme-author p {
+	color: #444;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+/* Buttons */
+.button-pro {
+    background: #d9595c !important;
+    border-color: #d03337 #d03337 #d03337 !important;
+    -webkit-box-shadow: 0 1px 0 #d03337 !important;
+    box-shadow: 0 1px 0 #d03337 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 1px #d03337,1px 0 1px #d03337,0 1px 1px #d03337,-1px 0 1px #d03337 !important;
+}

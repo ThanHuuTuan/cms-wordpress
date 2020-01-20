@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Retail 1.2\n"
+"POT-Creation-Date: 2019-02-01 14:22+0000\n"
+"PO-Revision-Date: 2019-02-01 14:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: uXL Themes\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: functions/translations.php\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ojdå! Sidan kan inte hittas."
+
+#: 404.php:13
+#, fuzzy
+msgid "Maybe try a search?"
+msgstr "Kanske prova en sökning?"
+
+#: 404.php:19
+#, fuzzy
+msgid "Browse our pages."
+msgstr "Bläddra bland våra sidor."
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "En kommentar på &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, fuzzy, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Svara på &quot;%2$s&quot;"
+msgstr[1] "%1$s Svar på &quot;%2$s&quot;"
+
+#: comments.php:62
+msgid "Previous"
+msgstr "Föregående"
+
+#: comments.php:63
+msgid "Next"
+msgstr "Nästa"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: content-front-page.php:18 content-page.php:21 content-search.php:53
+#: content-single.php:34 content.php:53
+msgid "Pages:"
+msgstr "Sidor:"
+
+#. translators: %s: Name of current post
+#: content-front-page.php:29 content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Inget hittades"
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Börja här</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Tyvärr, men det finns inget som matchar din sökning. Försök igen med en "
+"annan sökning."
+
+#: content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Det verkar som vi inte kan hitta det du letar efter. Du kanske ska testa "
+"sökfunktionen."
+
+#: content-related.php:19
+msgid "Related"
+msgstr "Relaterat"
+
+#: content-search.php:42 content.php:42
+msgid "No Title"
+msgstr "Ingen rubrik"
+
+#: content-search.php:57 content.php:57
+msgid "Continue Reading"
+msgstr "Fortsätt läsa"
+
+#: functions.php:35
+msgid "Primary Menu"
+msgstr "Huvudmeny"
+
+#: functions.php:36
+msgid "Footer Menu"
+msgstr "Sidfotsmeny"
+
+#: functions.php:122
+msgid "Blog Sidebar"
+msgstr "Blogg sidofält"
+
+#: functions.php:131
+msgid "Page Sidebar"
+msgstr "Sidofält sidor"
+
+#: functions.php:140
+msgid "Shop Sidebar"
+msgstr "Butikens sidofält"
+
+#: functions.php:142
+#, fuzzy
+msgid "Requires WooCommerce plugin."
+msgstr "Kräver WooCommerce-plugin."
+
+#: functions.php:150
+#, fuzzy
+msgid "Shop Filters"
+msgstr "Shop Filters"
+
+#: functions.php:152
+#, fuzzy
+msgid ""
+"Horizontal widget area for product archives. Requires WooCommerce plugin."
+msgstr "Horisontellt widgetområde för produktarkiv. Kräver WooCommerce-plugin."
+
+#: functions.php:160
+msgid "Top Bar"
+msgstr "Övre menyrad"
+
+#: functions.php:162
+#, fuzzy
+msgid "Add your own content above the header."
+msgstr "Lägg till ditt eget innehåll ovanför rubriken."
+
+#: functions.php:170
+#, fuzzy
+msgid "Offers Bar"
+msgstr "Erbjudanden Bar"
+
+#: functions.php:172
+#, fuzzy
+msgid "Add your own content below the site masthead."
+msgstr "Lägg till ditt eget innehåll under webbplatsens masthead."
+
+#: functions.php:180
+#, fuzzy
+msgid "Homepage Slider/Hero Section"
+msgstr "Hemsida Slider / Hero Section"
+
+#: functions.php:182
+#, fuzzy
+msgid "The large image/hero/slider area below the masthead on the homepage."
+msgstr "Den stora bilden / hjälten / skjutreglaget under mastodet på hemsidan."
+
+#: functions.php:190
+#, fuzzy
+msgid "Top Footer"
+msgstr "Top Footer"
+
+#: functions.php:191
+#, fuzzy
+msgid "Full width area above the footer columns."
+msgstr "Fullbreddsområde ovanför sidfotkolumnerna."
+
+#: functions.php:201
+msgid "Footer Column 1"
+msgstr "Sidfot kolumn 1"
+
+#: functions.php:211
+msgid "Footer Column 2"
+msgstr "Sidfot kolumn 2"
+
+#: functions.php:221
+msgid "Footer Column 3"
+msgstr "Sidfot kolumn 3"
+
+#: functions.php:247 functions.php:316
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "på"
+
+#: functions.php:278 functions.php:345
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "ingen del"
+
+#: functions/customizer.php:29
+#, fuzzy
+msgid "Disable Site Title first letter styling"
+msgstr "Inaktivera Site Title första bokstäver styling"
+
+#: functions/customizer.php:47
+#, fuzzy
+msgid "Highlight/Link Color"
+msgstr "Markera / länkfärg"
+
+#: functions/customizer.php:57
+msgid "Layout Options"
+msgstr "Layoutalternativ"
+
+#: functions/customizer.php:75
+#, fuzzy
+msgid "Enable Boxed Layout"
+msgstr "Aktivera boxad layout"
+
+#: functions/customizer.php:93
+msgid "Container Width"
+msgstr "Innehållsbredd"
+
+#: functions/customizer.php:117
+#, fuzzy
+msgid "Header Search Style"
+msgstr "Header Search Style"
+
+#: functions/customizer.php:140
+#, fuzzy
+msgid "Disable Search Form in Header"
+msgstr "Inaktivera sökformulär i rubrik"
+
+#: functions/customizer.php:158
+#, fuzzy
+msgid "Menu Position"
+msgstr "Menyposition"
+
+#: functions/customizer.php:182
+#, fuzzy
+msgid "Blog - Grid Layout"
+msgstr "Blogg - Grid Layout"
+
+#: functions/customizer.php:213
+msgid "Sidebar Position"
+msgstr "Sidofälts position"
+
+#: functions/customizer.php:217
+msgid "Left"
+msgstr "Vänster"
+
+#: functions/customizer.php:218
+msgid "Right"
+msgstr "Höger"
+
+#: functions/customizer.php:235
+#, fuzzy
+msgid "Enable Sticky Footer"
+msgstr "Aktivera klibbig sidfot"
+
+#: functions/customizer.php:245 functions/customizer.php:291
+msgid "Homepage Sections"
+msgstr "Startsidessektioner"
+
+#: functions/customizer.php:246
+#, fuzzy
+msgid ""
+"You should first select a Static Homepage if you have not already done so. "
+"See: \"Homepage Settings\""
+msgstr ""
+"Du bör först välja en statisk hemsida om du inte redan har gjort det. Se: "
+"\"Hemsida inställningar\""
+
+#: functions/customizer.php:263
+#, fuzzy
+msgid "Activate Sortable Sections"
+msgstr "Aktivera sorterbara sektioner"
+
+#: functions/customizer.php:264
+#, fuzzy
+msgid "Requires WooCommerce Plugin."
+msgstr "Kräver WooCommerce Plugin."
+
+#: functions/customizer.php:292
+#, fuzzy
+msgid ""
+"Check the box to display. Sortable: drag and drop into your preferred order."
+msgstr ""
+"Markera rutan som ska visas. Sorterbar: dra och släpp in i önskad ordning."
+
+#: functions/customizer.php:303
+#, fuzzy
+msgid "Typography & Fonts"
+msgstr "Typografi och teckensnitt"
+
+#: functions/customizer.php:315 functions/customizer.php:374
+msgid "Site Title"
+msgstr "Webbplatsens titel"
+
+#: functions/customizer.php:328
+msgid "Navigation"
+msgstr "Navigering"
+
+#: functions/customizer.php:341
+msgid "Content"
+msgstr "Innehåll"
+
+#: functions/customizer.php:354
+msgid "Headings"
+msgstr "Rubriker"
+
+#: functions/customizer.php:392
+msgid "Size"
+msgstr "Storlek"
+
+#: functions/customizer.php:413
+msgid "Weight"
+msgstr "Vikt"
+
+#: functions/customizer.php:431
+#, fuzzy
+msgid "Transform"
+msgstr "Omvandla"
+
+#: functions/customizer.php:434
+msgid "none"
+msgstr "inget"
+
+#: functions/customizer.php:434
+msgid "capitalize"
+msgstr "Stora bokstäver"
+
+#: functions/customizer.php:434
+msgid "lowercase"
+msgstr "Gemener"
+
+#: functions/customizer.php:434
+msgid "uppercase"
+msgstr "Versaler"
+
+#: functions/customizer.php:451
+msgid "Letter Spacing"
+msgstr "Text avstånd"
+
+#: functions/customizer.php:463 functions/customizer.php:474
+#: functions/customizer.php:610
+msgid "Go Pro"
+msgstr "Bli proffs"
+
+#: functions/customizer.php:465 functions/theme-help.php:85
+#, fuzzy
+msgid ""
+"Upgrade to Retail Pro for even more cool features and customization options."
+msgstr ""
+"Uppgradera till Retail Pro för ännu mer coola funktioner och "
+"anpassningsalternativ."
+
+#: functions/customizer.php:593
+#, fuzzy
+msgid "More options available"
+msgstr "Fler alternativ finns tillgängliga"
+
+#: functions/customizer.php:602
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: functions/extras.php:505
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions/extras.php:505
+#, fuzzy, php-format
+msgid "Powered by %s"
+msgstr "Drivs av %s"
+
+#: functions/extras.php:507
+#, fuzzy, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr "Tema:%2$s av%1$s"
+
+#: functions/extras.php:530
+msgid "options"
+msgstr "alternativ"
+
+#: functions/extras.php:707
+msgid "Page Content"
+msgstr "Sidinnehåll"
+
+#: functions/extras.php:713
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: functions/extras.php:719
+#, fuzzy
+msgid "New products"
+msgstr "Nya produkter"
+
+#: functions/extras.php:725
+msgid "Featured products"
+msgstr "Utvalda produkter"
+
+#: functions/extras.php:731
+msgid "On-sale products"
+msgstr "Reavaror"
+
+#: functions/extras.php:737
+msgid "Top sellers"
+msgstr "Toppsäljare"
+
+#: functions/extras.php:743
+msgid "Top rated products"
+msgstr "Produkter med bäst betyg"
+
+#: functions/extras.php:895 functions/extras.php:905
+#, fuzzy
+msgid ""
+"Please note: will not import static homepage allocation, if you have "
+"homepage currently set to display blog posts."
+msgstr ""
+"Observera: kommer inte importera statisk hemsida allokering, om du har "
+"hemsidan för närvarande inställd för att visa blogginlägg."
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: functions/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Lades till i %1$s"
+
+#. translators: %s: post title
+#: functions/template-tags.php:71
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> på %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: functions/template-tags.php:88
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: functions/theme-help.php:19 functions/theme-help.php:32
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Välkommen till %1$s %2$s"
+
+#: functions/theme-help.php:19
+#, fuzzy
+msgid "Theme Help"
+msgstr "Temahjälp"
+
+#: functions/theme-help.php:38
+#, fuzzy
+msgid "Theme Links"
+msgstr "Tema Länkar"
+
+#: functions/theme-help.php:39
+#, fuzzy
+msgid "Theme Page"
+msgstr "Tema sida"
+
+#: functions/theme-help.php:40
+msgid "Theme Demo"
+msgstr "Theme Demo"
+
+#: functions/theme-help.php:41 functions/theme-help.php:56
+msgid "Theme Documentation"
+msgstr "Temats dokumentation"
+
+#: functions/theme-help.php:42
+msgid "Theme Support"
+msgstr "Support för Tema"
+
+#: functions/theme-help.php:49
+#, php-format
+msgid "Getting Started with %s"
+msgstr "Komma igång med %s"
+
+#: functions/theme-help.php:59
+#, fuzzy
+msgid ""
+"Do you need help to setup, configure and customize this theme? Check out the "
+"extensive theme documentation on our website."
+msgstr ""
+"Behöver du hjälp med att konfigurera, konfigurera och anpassa detta tema? "
+"Kolla in den omfattande temadokumentationen på vår hemsida."
+
+#: functions/theme-help.php:63
+#, php-format
+msgid "View %s Documentation"
+msgstr "Dokumentation för %s"
+
+#: functions/theme-help.php:69
+msgid "Theme Options"
+msgstr "Temainställningar"
+
+#: functions/theme-help.php:72
+#, fuzzy, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr "%s använder anpassningsverktyget för temainställningarna."
+
+#: functions/theme-help.php:76
+msgid "Customize Theme"
+msgstr "Anpassa tema"
+
+#: functions/theme-help.php:82
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: functions/theme-help.php:89
+#, fuzzy
+msgid "GO PRO"
+msgstr "GO PRO"
+
+#: functions/theme-help.php:111
+#, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr "%1$s är stolt presenteras av %2$s. Om du gillar detta tema, %3$s :)"
+
+#: functions/theme-help.php:111
+#, fuzzy
+msgid "Retail Review"
+msgstr "Retail Review"
+
+#: functions/theme-help.php:111
+msgid "rate it"
+msgstr "betygsätt"
+
+#. translators: %s: search query.
+#: search.php:35
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: sidebar-shop-filters.php:20
+#, fuzzy
+msgid "Product Filters"
+msgstr "Produktfilter"
+
+#. Theme Name of the plugin/theme
+msgid "Retail"
+msgstr "Retail"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com/theme/retail/"
+msgstr "https://uxlthemes.com/theme/retail/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Retail is a clean and uncluttered WordPress shopping theme. Support for "
+"WooCommerce along with Wishlist and Quick View plugins is included along "
+"with an auto-updating AJAX header cart, sticky add-to-cart panel on single "
+"product pages and a horizontal product filter widget area to help increase "
+"the e-commerce sales of your store. The blog also features 12 different grid "
+"layout options including masonry post layout and support for video posts/"
+"articles. Retail also has full width and boxed layout options."
+msgstr ""
+"Retail är ett rent och snyggt WordPress-shoppingtema. Stöd för WooCommerce "
+"tillsammans med önskat och Quick View-plugins ingår tillsammans med en "
+"automatisk uppdatering av AJAX header cart, kladdig tilläggs-panel på "
+"enstaka produktsidor och ett horisontellt produktfilter widgetområde för att "
+"öka försäljningen av e-handel på din Lagra. I bloggen finns också 12 olika "
+"gallerinställningsalternativ, inklusive masonry-postlayout och stöd för "
+"videoinlägg / artiklar. Retail har också full bredd och boxed layout "
+"alternativ."
+
+#. Author of the plugin/theme
+msgid "uXL Themes"
+msgstr "uXL Themes"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com"
+msgstr "https://uxlthemes.com"
+
+#~ msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+#~ msgstr ""
+#~ "Hej <strong>%1$s</strong> (inte %1$s? <a href=\"%2$s\"> Logga ut</a>)"
+
+#~ msgid "Login"
+#~ msgstr "Logga in"
+
+#~ msgid "Register"
+#~ msgstr "Registrera"
