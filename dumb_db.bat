@@ -1,0 +1,1 @@
+C:\Piotr\xampp\mysql\bin\mysqldump.exe --user='root' --password='' wordpress_base > wp_dump_new.sql
