@@ -4,17 +4,12 @@
  * Description: Lista życzeń dla Kosiarkopolexu
  * Author: Konrad Semmler
  * Version: 1.0
- * License: GPL2+
  */
-	// TODO zmień wyświetlanie cen w tabelce i nazwy kolumn
-
-error_reporting(E_ALL); 
-ini_set("display_errors", 1);
 
 if ( !class_exists('PJAWishlistPlugin') ){
 	class PJAWishlistPlugin{
 
-		private static $_version = '0.2';
+		private static $_version = '1.0';
 		private static $scripts_version;
 		private static $wishlist;
 		public static $table_name;
@@ -31,6 +26,9 @@ if ( !class_exists('PJAWishlistPlugin') ){
 		 
 			self::$wishlist = new PJAWishlistPlugin_Wishlist();
 
+
+
+
 			register_activation_hook(__FILE__, array('PJAWishlistPlugin', 'activate_plugin'));
 			register_uninstall_hook(__FILE__, array('PJAWishlistPlugin', 'uninstall_plugin'));	
 
@@ -45,20 +43,31 @@ if ( !class_exists('PJAWishlistPlugin') ){
 
 		public static function activate_plugin() {
 			global $wpdb;
-			$sql = "CREATE TABLE `" . self::$table_name . "` ( ";
-			$sql .= " `user_id` bigint(20) NOT NULL, ";
-			$sql .= " `product_id` bigint(20) NOT NULL, ";
-			$sql .= " PRIMARY KEY (`user_id`,`product_id`) ";
-			$sql .= ") ENGINE=MyISAM DEFAULT CHARSET=utf-8; ";
-			require_once( ABSPATH . '/wp-admin/includes/upgrade.php' );
-			dbDelta($sql);
+			if ($wpdb->get_var('SHOW TABLES LIKE '.self::$table_name) != self::$table_name) {
+				$sql = "CREATE TABLE `".self::$table_name."`( ";
+				$sql .= " `user_id` bigint(20) NOT NULL, ";
+				$sql .= " `product_id` bigint(20) NOT NULL, ";
+				$sql .= " PRIMARY KEY (`user_id`,`product_id`) ";
+				$sql .= "); ";
+				require_once( ABSPATH.'/wp-admin/includes/upgrade.php' );
+				dbDelta($sql);
+			}
+			// $wpdb->query(
+			// 	'CREATE TABLE `' . self::$table_name . '` (
+			//   	`user_id` bigint(20) NOT NULL,
+			//   	`product_id` bigint(20) NOT NULL,
+			//   	PRIMARY KEY (`user_id`,`product_id`)
+			// 	) ENGINE=InnoDB DEFAULT CHARSET=utf-8;'
+			// );
 		}
  
 		public static function uninstall_plugin() {
 			global $wpdb;
-			$sql = "DROP TABLE `" . self::$table_name . "`;";
-			require_once( ABSPATH . '/wp-admin/includes/upgrade.php' );
-			dbDelta($sql);
+
+			$wpdb->query("DROP TABLE `".self::$table_name."`;");
+			// $sql = "DROP TABLE ".self::$table_name.";";
+			// require_once(ABSPATH.'/wp-admin/includes/upgrade.php');
+			// dbDelta($sql);
 		}
 
 		public static function load_js_css() {
