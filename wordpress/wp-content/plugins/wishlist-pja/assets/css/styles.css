@@ -1,3 +1,5 @@
+/* Button dodaj do listy */
+
 .pja-wl-btn {
   background: #ff6600;
   text-shadow: 1px 1px 3px #666666;
@@ -43,6 +45,58 @@
   background: #d90000;
   background-image: linear-gradient(to bottom, #d90000, #a60303);  
 }
+
+/* Button usuń z listy */
+
+
+.pja-wl-drop-btn {
+  background: #ff6600;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Helvetica Neue;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 7px 20px 7px 20px;
+  text-decoration: none;
+}
+
+.pja-wl-drop-btn:hover {
+  color: #fff;
+  background: #ff6600;
+  text-decoration: none;
+}
+
+.pja-wl-drop-btn-disabled {
+  background: grey;
+  background-image: none;
+}
+
+.pja-wl-drop-dtn-disabled:hover {
+  background: grey;
+  background-image: none;
+}
+
+.pja-wl-drop-btn-ok {
+  background: #02c202;
+  background-image: linear-gradient(to bottom, #02c202, #008a02);
+}
+
+.pja-wl-drop-btn-ok:hover {
+  background: #00db07;
+  background-image: linear-gradient(to bottom, #00db07, #02a805);
+}
+
+.pja-wl-drop-btn-ko {
+  background: #c20404;
+  background-image: linear-gradient(to bottom, #c20404, #8a0000);
+}
+
+.pja-wl-drop-btn-ko:hover {
+  background: #d90000;
+  background-image: linear-gradient(to bottom, #d90000, #a60303);  
+}
+
+
+/* Lista życzeń */
 
 .pja-wl-wishlist {
   margin-top: 2em;

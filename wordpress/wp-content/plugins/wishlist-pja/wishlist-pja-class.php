@@ -2,8 +2,6 @@
 if( !class_exists( 'PJAWishlistPlugin_Wishlist' ) ) {
 	class PJAWishlistPlugin_Wishlist {
 
-		function PJAWishlistPlugin_Wishlist() {}
-
 		function add_product_to_wishlist($product_id, $user_id) {
 			global $wpdb;
 			$result = $wpdb->insert( 
@@ -55,6 +53,22 @@ if( !class_exists( 'PJAWishlistPlugin_Wishlist' ) ) {
 			<?php
 		}	
 
+		function show_delete_button($product_id) {
+			?>
+			<div class="summary">
+				<a href="#" class="pja-wl-drop-btn" data-product="
+					<?php 
+						echo $product_id; 
+					?>
+				">
+					<?php 
+						_e( 'Usuń z mojej listy życzeń', 'PJAWishlistPlugin' ); 
+					?>
+				</a>
+			</div>
+			<?php
+		}
+
 		function render_list($user_id) {
 			global $wpdb;
 			$items =  $wpdb->get_results( '
@@ -94,7 +108,28 @@ if( !class_exists( 'PJAWishlistPlugin_Wishlist' ) ) {
 			} else {
 				return true;
 			}			
-		}		
+		}
+
+		function remove_from_user_wishlist($product_id, $user_id) {
+			global $wpdb;
+			$result = $wpdb->delete( 
+				PJAWishlistPlugin::$table_name, 
+				array( 
+					'product_id' => $product_id, 
+					'user_id' => $user_id
+				), 
+				array( 
+					'%d', 
+					'%d' 
+				) 
+			);
+
+			if(!$result){
+				return false;
+			} else {
+				return true;
+			}
+		}
 	}
 }
 ?>
