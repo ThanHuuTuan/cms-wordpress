@@ -78,16 +78,16 @@ if( !class_exists( 'PJAWishlistPlugin_Wishlist' ) ) {
 			);
 
 			if(count($items)>0) {
-				echo '<table class="PJAWishlistPlugin-table"><thead><tr><th colspan="2">'.__('Product', 'PJAWishlistPlugin').'</th>';
-				echo '<th>'.__('Price', 'PJAWishlistPlugin').'</th></tr></thead><tbody>';
+				echo '<table class="PJAWishlistPlugin-table"><thead><tr><th colspan="2">'.__('Produkt', 'PJAWishlistPlugin').'</th>';
+				echo '<th>'.__('Cena', 'PJAWishlistPlugin').'</th></tr></thead><tbody>';
 				foreach($items as $item) {
 					$wl_post = get_post($item->product_id);
 					$wl_product = new WC_Product($item->product_id);
 					$product_name = $wl_post->post_title;
 					$product_thumbnail = get_the_post_thumbnail($item->product_id, 'thumbnail');
-					$product_price = $wl_product->get_price_html();
+					$product_price = $wl_product->get_price();
 					$product_permalink = get_the_permalink( $item->product_id );
-					echo '<tr><td><a href="'.$product_permalink.'">'.$product_thumbnail.'</a></td><td><a href="'.$product_permalink.'">'.$product_name.'</a></td><td>'.$product_price.'</td></tr>';
+					echo '<tr><td><a href="'.$product_permalink.'">'.$product_thumbnail.'</a></td><td><a href="'.$product_permalink.'">'.$product_name.'</a></td><td><ins><span class="woocommerce-Price-amount amount">'.$product_price.'&nbsp;<span class="woocommerce-Price-currencySymbol">zł</span></span></ins></td></tr>';
 				}
 				echo '</tbody></table>';
 			} else {

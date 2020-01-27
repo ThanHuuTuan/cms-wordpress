@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
 				} else {
 					curr_btn.addClass('pja-wl-drop-btn-ko');
 					curr_btn.text(pjawl_msg_ko);
-					console.log('weird place 2');	
+					console.log('weird place 2 ');	
 				}			
 			}
 		});

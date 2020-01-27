@@ -3,7 +3,7 @@
  * Plugin Name: wishlist-pja
  * Description: Lista życzeń dla Kosiarkopolexu
  * Author: Konrad Semmler
- * Version: 0.2
+ * Version: 1.0
  * License: GPL2+
  */
 	// TODO zmień wyświetlanie cen w tabelce i nazwy kolumn
@@ -113,8 +113,7 @@ if ( !class_exists('PJAWishlistPlugin') ){
 				echo '<div class="pja-wl-wishlist"><h2>'.__( 'Lista życzeń', 'PJAWishlistPlugin');
 				self::$wishlist->render_list(get_current_user_id());
 				echo '</div>';
-			}
-				
+			}	
 		}
 
 		public static function def_js_vars() {
