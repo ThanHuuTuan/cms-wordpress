@@ -1,5 +1,4 @@
 # cms-wordpress
-Online shop built on wordpress
+University project. Online shop built on wordpress. 
 
-If you're using XAMPP on Mac, you need to disable default running Apache Server with: sudo apachectl stop
-After that, you should be able to run Apache Server from XAMPP.
+The goal of this exercise was to succesfully set up an Apache Server for the site, develop a working shop in Wordpress, write a custom plugin in PHP and of course complete it as a team. 
